@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shoppers</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="shop.css">
+</head>
+<body>
+	<nav>
+		<div class="top-nav">
+	<h1 id="h1"><u>Winners Chinese food suppliers.</u></h1>
+</div>
+</nav>
+<i class='fas fa-cart-plus' style='font-size:48px;color:red'></i>
+	<div class="row">
+		<div class="col-11">
+			<p id="r"><b>Are you thirsty for foreign meals? Tired of same menu every time? Winners shoppers are here to provide you with Chinese tasty flavors.In a click of a button,you get your favorite dish.Try us!</b></p>
+		</div>
+		<div class="col-1">
+			<img src="images/cart.jpg" alt="cart" width="37" id="i">
+			<button onclick="myFunction()">Cart</button>
+		</div>
+	<div class="row">
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/frdeggs.jpg" width="70" id="y">
+		<button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Fried eggs</h>
+		<b>Ksh.400</b>
+    </div>
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/wheat.jpg" width="70" id="y">
+		<button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Wheat</h>
+		<b>Ksh.250</b>
+	</div>
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/vegs.jpg" width="70" id="y">
+		<button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Vegetables</h>
+		<b>Ksh.500</b>
+	</div>
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/variet.jpg" width="70" id="y">
+		<button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Shrimps</h>
+		<b>Ksh.600</b>
+	</div>
+</div>
+	<div class="row">
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/chic.jpg" width="70" id="y">
+		<button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Chicken</h>
+		<b>Ksh.300</b>
+	</div>
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/tofu.jpg" width="70" id="y">
+		<button onclick="function()" id="p">Add to cart</button>
+		<h id="h">Tofu</h>
+		<b>Ksh.350</b>
+	</div>
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/snails.jpg" width="70" id="y">
+		<button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Snails</h>
+		<b>Ksh.800</b>
+	</div>
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/ms.jpg" width="70" id="y">
+		<button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Mushroom soup</h>
+		<b>Ksh.650</b>
+	</div>
+</div>
+<div class="row">
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/dum.jpg" width="70" id="y">
+		<button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Dumplings</h>
+		<b>Ksh.150</b>
+	</div>
+	<div class="col-3">
+		<div id="thisD">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/fr.jpg" width="70" id="y">
+		<button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Festive rice</h>
+		<b>Ksh.200</b>
+	</div>
+	</div>
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/rbs.jpg" width="70" id="y">
+		<button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Rice balls</h>
+		<b>Ksh.250</b>
+	</div>
+	<div class="col-3">
+		<img onmouseover="bigImg(this)" onmouseout="normalImg(this)" src="images/msr.jpg" width="70" id="y">
+        <button onclick="myFunction()" id="p">Add to cart</button>
+		<h id="h">Mushroom stew</h>
+		<b>Ksh.650</b>
+	</div>
+</div>
+<div class="row">
+	<div class="col-12">
+		<p id="r">For inquiries call:</p>
+		<ol id="r"><li>0700300120</li>
+			<li>0701211240</li>
+		</ol>
+		<p id="r">Email:</p>
+		<ul id="r">
+			<li>winners@yahoo.com</li>
+		<li>winners@gmail.com</li>
+		</ul>
+	</div>
+</div>
+<p id="y"></p>
+<p id="y"></p>
+<script type="text/javascript">
+	function bigImg(t) {
+  t.style.width = "100%";
+}
+
+function normalImg(t) {
+  t.style.width = "70%";
+};
+</script>
+</body>
+</html>
